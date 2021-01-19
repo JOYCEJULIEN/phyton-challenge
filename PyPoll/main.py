@@ -26,7 +26,7 @@ print(sumacandidato)
 print(sum(sumacandidato))
 
 
-#sys.stdout = open('analysis.txt','wt')
+sys.stdout = open('analysis.txt','wt')
 print(f'Election Results')
 print(f'_________________________________')
 print(f'Total Votes: ',sum(sumacandidato))
